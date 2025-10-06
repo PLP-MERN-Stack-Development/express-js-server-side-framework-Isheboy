@@ -326,8 +326,10 @@ curl http://localhost:3000/api/products/stats
 ```
 ├── server.js                    # Main application file
 ├── package.json                 # Dependencies and scripts
+├── package-lock.json            # Dependency lock file
 ├── README.md                    # API documentation
 ├── .env.example                 # Environment variables template
+├── .gitignore                   # Git ignore rules
 ├── middleware/                  # Custom middleware modules
 │   ├── auth.js                 # Authentication middleware
 │   ├── errorHandler.js         # Global error handling
